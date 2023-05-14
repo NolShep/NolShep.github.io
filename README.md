@@ -1,2 +1,4 @@
 # NolShep.github.io
-super cool and innovative personal website
+super cool personal website
+
+inspired by https://zluan.io/
