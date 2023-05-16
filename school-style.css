@@ -7,47 +7,35 @@ body {
 }
 
 /* Animation and Background colors */
-.background {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, darkgrey 50%, black 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
 }
 
-.background2 {
-  animation-direction:alternate-reverse;
-  animation-duration:7s;
+container {
+  background-color: #ffffff;
+  transition: background-color 0.3s;
 }
 
-.background3 {
-  animation-duration:8s;
+.container:hover {
+  background-color: #ff0000; 
 }
 
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
 h1 {
-  font-family:monospace;
-}
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
-
-@keyframes animate {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  color: white;
 }
 
 .image {
