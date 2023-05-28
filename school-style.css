@@ -94,3 +94,18 @@ body {
   top: 0px;
   z-index:0;
 }
+
+/* fade-in effect */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 4s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
