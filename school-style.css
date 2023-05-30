@@ -63,20 +63,6 @@ body {
   object-position: center;
   opacity: 0;
 }
-.text-box {
-  position: absolute;
-  top: 30%; 
-  left: 15.8%;
-  padding: 10px;
-  display: none;
-  color: black;
-  width: 450px; 
-  font-size: 1.2rem;
-}
-
-.image:hover .text-box{
-  display: block;
-}
 
 .image:hover img {
   transform: scale(1.1) translate(0%, 0%);
@@ -98,7 +84,7 @@ body {
 /* fade-in effect */
 .fade-in {
   opacity: 0;
-  animation: fadeInAnimation 4s ease-in-out forwards;
+  animation: fadeInAnimation 1s ease-in-out forwards;
 }
 
 @keyframes fadeInAnimation {
@@ -109,3 +95,53 @@ body {
     opacity: 1;
   }
 }
+
+/* Text Box */
+@font-face {
+  font-family: 'Rocher';
+  src: url(./fonts/RocherColorGX.woff2);
+}
+
+h1 {
+  font-family: 'Rocher';
+  position: absolute;
+  top: 30%; 
+  left: 15.8%;
+  padding: 10px;
+  color: black;
+  opacity: 0; 
+  width: 450px; 
+  font-size: 1.5rem;
+  transition: opacity .3s ease; 
+}
+
+@font-palette-values --Purple {
+  font-family: Rocher;
+  base-palette: 7;
+}
+
+.mint {
+  font-palette: --Purple;
+}
+
+@font-palette-values --Orange {
+  font-family: Rocher;
+  base-palette: 7;
+}
+
+.mint {
+  font-palette: --Orange;
+}
+
+@font-palette-values --Blue {
+  font-family: Rocher;
+  base-palette: 7;
+}
+
+.mint {
+  font-palette: --Mint;
+}
+
+.image:hover h1{
+  opacity: 1;
+} 
