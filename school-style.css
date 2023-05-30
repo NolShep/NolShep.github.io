@@ -52,7 +52,7 @@ body {
   transform: scale(1.1) translate(0%, 0%);
   filter: brightness(1.2);
   opacity: 1;
-  transition: opacity 3s ease;
+  transition: opacity 2s ease;
 }
 
 #particles-js{
@@ -89,12 +89,10 @@ body {
 h1 {
   font-family: 'Rocher';
   position: absolute;
-  top: 30%; 
-  left: 15.8%;
   padding: 10px;
   opacity: 0; 
   width: 450px; 
-  font-size: 1.5rem;
+  font-size: 2.6rem;
   transition: opacity .3s ease; 
 }
 
@@ -127,4 +125,6 @@ h1 {
 
 .image:hover h1{
   opacity: 1;
+  transition: opacity 2s ease;
+
 } 
