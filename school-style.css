@@ -96,6 +96,16 @@ h1 {
   transition: opacity .3s ease; 
 }
 
+h2 {
+  font-family: 'Rocher';
+  position: absolute;
+  padding: 10px;
+  opacity: 0; 
+  width: 450px; 
+  font-size: 1.8rem;
+  transition: opacity .3s ease; 
+}
+
 @font-palette-values --Purple {
   font-family: Rocher;
   base-palette: 6;
@@ -126,5 +136,9 @@ h1 {
 .image:hover h1{
   opacity: 1;
   transition: opacity 2s ease;
+} 
 
+.image:hover h2{
+  opacity: 1;
+  transition: opacity 2s ease;
 } 
