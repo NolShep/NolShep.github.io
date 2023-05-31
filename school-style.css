@@ -42,8 +42,8 @@ body {
   position: absolute;
   max-width: 180px;
   max-height: 180px;
-  top: 50%;
-  transform: translate(-40%, -50%);
+  top: 64%;
+  left: 28%;
   display: flex;
   flex-direction: column;
   align-items: center;
