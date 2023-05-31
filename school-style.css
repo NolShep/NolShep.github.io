@@ -41,6 +41,12 @@ body {
   transform: translate(0%, 0%);
   max-width: 180px;
   max-height: 180px;
+  top: 65%;
+  left: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -93,8 +99,9 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   opacity: 0; 
+  left: 0;
+  top: 48%;
   width: 100%; 
   font-size: 2.6rem;
   transition: opacity .3s ease; 
@@ -107,9 +114,10 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   opacity: 0; 
-  width: 450px; 
+  left: 0;
+  top: 54%;
+  width: 100%; 
   font-size: 1.8rem;
   transition: opacity .3s ease; 
 }
