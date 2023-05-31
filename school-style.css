@@ -2,8 +2,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-size: 0;
-  /*background-color: #efe7d7; */
-  background-color: #525250;
+  /*background-color: #525250; */
+  background-color: #efe7d7;
   
 }
 
@@ -38,11 +38,10 @@ body {
 
 .hover-image {
   position: absolute;
-  transform: translate(0%, 0%);
   max-width: 180px;
   max-height: 180px;
   top: 65%;
-  left: 31%;
+  left: 31.5%;
   display: flex;
   flex-direction: column;
   align-items: center;

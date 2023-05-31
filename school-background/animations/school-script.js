@@ -49,7 +49,7 @@ $.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles
           "line_linked": {
             "enable": true,
             "distance": 150,
-            "color": "#3d3c39",
+            "color": "#000000",
             "opacity": 0.4,
             "width": 1
           },
