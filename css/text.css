@@ -16,7 +16,6 @@
     align-items: center;
     height: 100px;
     position: absolute; 
-    top: 0; 
     left: 50%; 
     transform: translateX(-50%); 
     animation-name: slideIn;
@@ -31,14 +30,13 @@
   .content {
     font-size: 1.2rem;
     color:rgba(242, 242, 242, 0.8);
-    margin-top: calc(33vh); 
+    margin-top: calc(34vh); 
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
     position: absolute; 
-    top: 0; 
     left: 50%;
     transform: translateX(-50%);
     animation-name: slideUp;
