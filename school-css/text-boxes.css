@@ -1,0 +1,76 @@
+/* Text Boxes */
+@font-face {
+    font-family: 'Rocher';
+    src: url(./fonts/RocherColor.woff2);
+  }
+  
+/* School Name */
+h1 {
+  font-family: 'Rocher';
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  left: 0;
+  top: 54%;
+  width: 100%; 
+  font-size: 2.6rem;
+  transition: opacity .3s ease; 
+}
+
+/* School Location */    
+h2 {
+  font-family: 'Rocher';
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  left: 0;
+  top: 60%;
+  width: 100%; 
+  font-size: 1.8rem;
+  transition: opacity .3s ease; 
+}
+
+/* Font Coloring */    
+@font-palette-values --Purple {
+  font-family: Rocher;
+  base-palette: 6;
+}
+
+.purple {
+  font-palette: --Purple;
+}
+
+@font-palette-values --Orange {
+  font-family: Rocher;
+  base-palette: 11;
+}
+
+.orange {
+  font-palette: --Orange;
+}
+
+@font-palette-values --Blue {
+  font-family: Rocher;
+  base-palette: 9;
+}
+
+.blue {
+  font-palette: --Blue;
+}
+
+/* Hover rule */    
+.image:hover h1{
+  opacity: 1;
+  transition: opacity 2s ease;
+} 
+
+.image:hover h2{
+  opacity: 1;
+  transition: opacity 2s ease;
+} 

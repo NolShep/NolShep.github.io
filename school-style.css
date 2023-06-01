@@ -1,59 +1,15 @@
+/* imports */
+@import url("school-css/text-boxes.css");
+@import url("school-css/image.css");
+
 body {
   margin: 0;
   overflow: hidden;
   font-size: 0;
-  /*background-color: #525250; 
-  background-color: #efe7d7; */
-  background: linear-gradient(to bottom, #273747, rgba(12, 16, 230, 0.7));
-
-  
+  background: linear-gradient(to bottom, #273747, rgba(12, 16, 230, 0.7)); 
 }
 
-/* img positioning */
-.image {
-  display: inline-block;
-  width: 33.3333%;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background-color: black;
-  box-sizing: border-box;
-  z-index: 1;
-  clip-path: polygon(
-    7.33% 0, 
-    100% 0, 
-    92.66% 100%, 
-    0 100% 
-  );
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-}
-
-.image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.3s ease-out;
-}
-
-.hover-image {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: auto;
-}
-
-
-.image:hover img {
-  transform: scale(1.1) translate(0%, 0%);
-  filter: brightness(1.2);
-  opacity: 1;
-  transition: opacity 2s ease;
-}
-
+/* background effect */
 #particles-js{
   width: 100%;
   height: 100%;
@@ -78,79 +34,6 @@ body {
     opacity: 1;
   }
 }
-
-/* Text Box */
-@font-face {
-  font-family: 'Rocher';
-  src: url(./fonts/RocherColor.woff2);
-}
-
-h1 {
-  font-family: 'Rocher';
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0; 
-  left: 0;
-  top: 54%;
-  width: 100%; 
-  font-size: 2.6rem;
-  transition: opacity .3s ease; 
-}
-    
-h2 {
-  font-family: 'Rocher';
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0; 
-  left: 0;
-  top: 60%;
-  width: 100%; 
-  font-size: 1.8rem;
-  transition: opacity .3s ease; 
-}
-
-@font-palette-values --Purple {
-  font-family: Rocher;
-  base-palette: 6;
-}
-
-.purple {
-  font-palette: --Purple;
-}
-
-@font-palette-values --Orange {
-  font-family: Rocher;
-  base-palette: 11;
-}
-
-.orange {
-  font-palette: --Orange;
-}
-
-@font-palette-values --Blue {
-  font-family: Rocher;
-  base-palette: 9;
-}
-
-.blue {
-  font-palette: --Blue;
-}
-
-.image:hover h1{
-  opacity: 1;
-  transition: opacity 2s ease;
-} 
-
-.image:hover h2{
-  opacity: 1;
-  transition: opacity 2s ease;
-} 
 
 /* glow bars 
 .glowing-line {
