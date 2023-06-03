@@ -1,6 +1,7 @@
 /* imports */
 @import url("css/buttons.css");
 @import url("css/text.css");
+@import url("css/mediaquery.css");
 
 /* Homepage gradient */
 body{
@@ -14,6 +15,7 @@ body{
   letter-spacing: 0.02em;
   font-weight: 400;
   -webkit-font-smoothing: antialiased; 
+  overflow: hidden;
  }
 
 /* Gray fade in */

@@ -29,7 +29,7 @@
   /* message box */
   .content {
     font-size: 1.2rem;
-    color:rgba(242, 242, 242, 0.8);
+    color:rgba(242, 242, 242);
     margin-top: calc(34vh); 
     margin-bottom: 1rem;
     display: flex;

@@ -1,0 +1,138 @@
+/* media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+
+    /* text box sizes */
+    .name {
+      font-size: 2.4rem;
+    }
+  
+    .content {
+      font-size: 1rem;
+    }
+
+    /* button sizes 
+    nav li {
+      font-size: 1em;
+      margin-right: 35px;
+      line-height: 70px;
+    }
+
+    nav li a {
+      border: 2px solid #fff;
+      height: 70px;
+      width: 70px;
+    }
+
+    nav li a:hover .inner {
+      height: 66px;
+      margin-left: -33px;
+      margin-top: -33px;
+      width: 66px;
+    }
+
+    nav li a i {
+      font-size: 2rem;
+    }
+
+    .icon-envelope {
+      font-size: 20px;
+    }
+    
+    .icon-github {
+      font-size: 26px;
+    }
+    */
+  }
+  
+  /* screens between 768px and 1023px */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+        
+    /* text box sizes */
+    .name {
+      font-size: 3.4rem;
+    }
+  
+    .content {
+      font-size: 1.1rem;
+    }
+
+    /* button sizes 
+    nav li {
+      font-size: 1rem;
+      margin-right: 35px;
+      line-height: 70px;
+    }
+
+    nav li a {
+      border: 2px solid #fff;
+      height: 70px;
+      width: 70px;
+    }
+
+    nav li a:hover .inner {
+      height: 66px;
+      margin-left: -33px;
+      margin-top: -33px;
+      width: 66px;
+    }
+
+    nav li a i {
+      font-size: 2rem;
+    }
+
+    .icon-envelope {
+      font-size: 30px;
+    }
+    
+    .icon-github {
+      font-size: 36px;
+    }
+    */
+  }
+  
+  /* larger than 1023px */
+  @media screen and (min-width: 1024px) {
+    
+    /* text box sizes */
+    .name {
+      font-size: 3.8rem;
+    }
+  
+    .content {
+      font-size: 1.2rem;
+    }
+
+    /* button sizes 
+    nav li {
+      font-size: 2em;
+      margin-right: 35px;
+      line-height: 70px;
+    }
+
+    nav li a {
+      border: 2px solid #fff;
+      height: 70px;
+      width: 70px;
+    }
+
+    nav li a:hover .inner {
+      height: 66px;
+      margin-left: -33px;
+      margin-top: -33px;
+      width: 66px;
+    }
+
+    nav li a i {
+      font-size: 2rem;
+    }
+
+    .icon-envelope {
+      font-size: 30px;
+    }
+    
+    .icon-github {
+      font-size: 36px;
+    }
+    */
+  }
+}
