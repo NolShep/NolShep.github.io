@@ -1,6 +1,7 @@
 /* imports */
 @import url("school-css/text-boxes.css");
 @import url("school-css/image.css");
+@import url("school-css/school-mediaquery.css");
 
 body {
   margin: 0;
