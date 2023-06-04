@@ -10,7 +10,10 @@
     font-size: 1rem;
   }
 
-  /* button sizes 
+  /* button sizes */
+  nav {
+    top: 70%;
+  }
   nav li {
     font-size: 1em;
     margin-right: 35px;
@@ -19,29 +22,29 @@
 
   nav li a {
     border: 2px solid #fff;
-    height: 70px;
-    width: 70px;
+    height: 35px;
+    width: 35px;
   }
 
   nav li a:hover .inner {
-    height: 66px;
-    margin-left: -33px;
-    margin-top: -33px;
-    width: 66px;
+    height: 32px;
+    margin-left: -16.5px;
+    margin-top: -16.5px;
+    width: 32px;
   }
 
   nav li a i {
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 
   .icon-envelope {
-    font-size: 20px;
+    font-size: 14px;
   }
     
   .icon-github {
-    font-size: 26px;
+    font-size: 20px;
   }
-  */
+  
 }
 
 /* screens between 768px and 1023px */
@@ -56,7 +59,10 @@
     font-size: 1.1rem;
   }
 
-  /* button sizes 
+  /* button sizes */
+  nav {
+    top: 60%;
+  }
   nav li {
     font-size: 1em;
     margin-right: 35px;
@@ -65,19 +71,19 @@
 
   nav li a {
     border: 2px solid #fff;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
   }
 
   nav li a:hover .inner {
-    height: 66px;
-    margin-left: -33px;
-    margin-top: -33px;
-    width: 66px;
+    height: 46px;
+    margin-left: -23px;
+    margin-top: -23px;
+    width: 46px;
   }
 
   nav li a i {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .icon-envelope {
@@ -87,7 +93,7 @@
   .icon-github {
     font-size: 26px;
   }
-  */
+  
 }
 
 /* larger than 1023px */
@@ -102,7 +108,7 @@
     font-size: 1.2rem;
   }
 
-  /* button sizes 
+  /* button sizes */
   nav li {
     font-size: 1em;
     margin-right: 35px;
@@ -127,11 +133,11 @@
   }
 
   .icon-envelope {
-    font-size: 20px;
+    font-size: 30px;
   }
     
   .icon-github {
-    font-size: 26px;
+    font-size: 36px;
   }
-  */
+  
 }
