@@ -97,8 +97,24 @@
   
 }
 
+/* screens between 768px and 1023px */
+@media screen and (min-height:541px) and (max-height:640px) {
+  /* button sizes */
+  nav{
+    top: 55%;
+  }
+}
+
+/* screens between 768px and 1023px */
+@media screen and (min-height:640px) and (max-height:730px) {
+  /* button sizes */
+  nav{
+    top: 53%;
+  }
+}
+
 /* larger than 1023px */
-@media screen and (min-height:541px) {
+@media screen and (min-height:731px) {
 
   /* text box sizes */
   .name {
