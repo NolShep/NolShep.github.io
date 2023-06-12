@@ -145,8 +145,18 @@
   
 }
 
+
+/* Prevent button & text clipping format*/
 /* screens between 541px and 640px */
-@media screen and (min-height:541px) and (max-height:640px) {
+@media screen and (min-height:541px) and (max-height:580px) {
+  /* button sizes */
+  nav{
+    top: 57%;
+  }
+}
+
+/* screens between 541px and 640px */
+@media screen and (min-height:581px) and (max-height:640px) {
   /* button sizes */
   nav{
     top: 55%;
@@ -161,7 +171,8 @@
   }
 }
 
-/* larger than 731px */
+
+/* larger than 731px DEFAULT SIZE*/
 @media screen and (min-height:731px) {
 
   /* text box sizes */

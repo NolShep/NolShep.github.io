@@ -44,6 +44,7 @@ nav li a:before {
   display: none;
 }
 
+/* inner color */
 nav li a .inner {
   background-color: rgba(12, 16, 230);
   display: block;
@@ -63,6 +64,7 @@ nav li a .inner {
   opacity: 0.4;
 }
 
+/* inner size */
 nav li a:hover .inner {
   height: 66px;
   margin-left: -33px;
