@@ -1,102 +1,100 @@
 /* Buttons */
 nav {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap; 
-  
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; 
+}
 
-  /* list element */
-  nav li {
-    font-size: 2em;
-    margin-right: 35px;
-    line-height: 70px;
-    position: relative;
-    text-align: center;
-    display: inline-block;
-  }
+/* list element */
+nav li {
+  font-size: 2em;
+  margin-right: 35px;
+  line-height: 70px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+/* href attribute */
+nav li a {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  display: block;
+  height: 70px;
+  position: relative;
+  text-decoration: none;
+  width: 70px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: background-color 0.3s ease, color 0.3s ease;
+  -o-transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  animation-name: fadeIn;
+  animation-duration: 10s;
+  animation-fill-mode: forwards; 
+  opacity: 0; 
   
-  /* href attribute */
-  nav li a {
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    display: block;
-    height: 70px;
-    position: relative;
-    text-decoration: none;
-    width: 70px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    -moz-transition: background-color 0.3s ease, color 0.3s ease;
-    -o-transition: background-color 0.3s ease, color 0.3s ease;
-    -webkit-transition: background-color 0.3s ease, color 0.3s ease;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    animation-name: fadeIn;
-    animation-duration: 10s;
-    animation-fill-mode: forwards; 
-    opacity: 0; 
-    
-  }
-  nav li a:before {
-    display: none;
-  }
-  
-  nav li a .inner {
-    background-color: rgba(12, 16, 230);
-    display: block;
-    height: 0;
-    left: 50%;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    width: 0;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    opacity: 0.4;
-  }
-  
-  nav li a:hover .inner {
-    height: 66px;
-    margin-left: -33px;
-    margin-top: -33px;
-    width: 66px;
-    opacity: 1;
-  }
-  
-  /* Alt Text */
-  nav li a i {
-    font-size: 2rem;
-    color: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  /* Icon sizing */
-  .icon-envelope {
-    font-size: 30px;
-  }
-  
-  .icon-github {
-    font-size: 36px;
-  }
-  
-  nav li a:hover {
-    background-color: rgba(12, 16, 230);
-    color: #20826c;
-  }
-  
+}
+nav li a:before {
+  display: none;
+}
+
+nav li a .inner {
+  background-color: rgba(12, 16, 230);
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  width: 0;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 0.4;
+}
+
+nav li a:hover .inner {
+  height: 66px;
+  margin-left: -33px;
+  margin-top: -33px;
+  width: 66px;
+  opacity: 1;
+}
+
+/* Alt Text */
+nav li a i {
+  font-size: 2rem;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li {
+  list-style: none;
+}
+
+/* Icon sizing */
+.icon-envelope {
+  font-size: 30px;
+}
+
+.icon-github {
+  font-size: 36px;
+}
+
+nav li a:hover {
+  background-color: rgba(12, 16, 230);
+  color: #20826c;
+}

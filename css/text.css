@@ -6,42 +6,42 @@
     position: relative; 
   }
 
-  /* name box */
-  .name {
-    font-size: 3.8rem;
-    color:rgba(242, 242, 242);
-    margin-top: calc(33.33vh - 65px); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    position: absolute; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    animation-name: slideIn;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-    white-space: nowrap; 
-    text-shadow: .5px .5px .5px #727f82;
-  }
+/* name box */
+.name {
+  font-size: 3.8rem;
+  color:rgba(242, 242, 242);
+  margin-top: calc(33.33vh - 65px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  animation-name: slideIn;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  opacity: 1;
+  white-space: nowrap; 
+  text-shadow: .5px .5px .5px #727f82;
+}
 
-  /* message box */
-  .content {
-    font-size: 1.2rem;
-    color:rgba(242, 242, 242);
-    margin-top: calc(34vh); 
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    position: absolute; 
-    left: 50%;
-    transform: translateX(-50%);
-    animation-name: slideUp;
-    animation-duration: 6s;
-    animation-fill-mode: forwards; 
-    opacity: 1; 
-    white-space: nowrap; 
-  }
+/* message box */
+.content {
+  font-size: 1.2rem;
+  color:rgba(242, 242, 242);
+  margin-top: calc(34vh); 
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%);
+  animation-name: slideUp;
+  animation-duration: 6s;
+  animation-fill-mode: forwards; 
+  opacity: 1; 
+  width: 100%;
+}
